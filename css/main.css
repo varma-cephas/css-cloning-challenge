@@ -467,6 +467,9 @@ nav ul{
     .city_1_description{
         display: none;
     }
+    .mobile_city{
+        display: none;
+    }
 }
 
 
