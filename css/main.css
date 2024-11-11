@@ -9,6 +9,7 @@ html{
 body{
     margin: 0;
     padding: 0;
+    font-family: "Host Grotesk";
 }
 
 .mobile-menu{
@@ -130,12 +131,43 @@ nav ul{
 .cities-section_3{
     margin-left: 1.5em;
 }
+.cities-section_4{
+    margin-left: 1.5em;
+}
 
 .city_2{
     max-width: 50%;
 }
 
-@media (min-width: 450px) {
+.city_3_paragraph{
+    margin: 0;
+    padding: 0;
+}
+
+.city_rating{
+    border: 2px solid;
+    background: rgb(11, 74, 11);
+    color: white;
+    padding: .2em .5em;
+    border-radius: 5px;
+}
+
+.city_rating_container{
+    margin: .5em;
+}
+
+.city_pricing{
+    margin: 0;
+    padding: 0;
+}
+
+.city_location{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (min-width: 440px) {
     body{
         /* background: rgb(182, 92, 92); */
     }
@@ -144,6 +176,19 @@ nav ul{
         /* border: 2px solid; */
         margin-right: 2.5em;
         margin-left: .50em;
+    }
+    .cities-section{
+        margin-left: 3.2em;
+    }
+    .cities-section_2{
+        margin-left: 3.2em;
+    }
+    
+    .cities-section_3{
+        margin-left: 3.2em;
+    }
+    .cities-section_4{
+        margin-left: 3.2em;
     }
     
 }
@@ -158,6 +203,19 @@ nav ul{
         margin-right: 3.5em;
         margin-left: .50em;
     }
+    .cities-section{
+        margin-left: 3.9em;
+    }
+    .cities-section_2{
+        margin-left: 3.9em;
+    }
+    
+    .cities-section_3{
+        margin-left: 3.9em;
+    }
+    .cities-section_4{
+        margin-left: 3.9em;
+    }
     
 }
 
@@ -171,6 +229,20 @@ nav ul{
         /* border: 2px solid; */
         margin-right: 4.5em;
         margin-left: .50em;
+    }
+
+    .cities-section{
+        margin-left: 4em;
+    }
+    .cities-section_2{
+        margin-left: 4em;
+    }
+    
+    .cities-section_3{
+        margin-left: 4em;
+    }
+    .cities-section_4{
+        margin-left: 4em;
     }
     
 }
@@ -226,6 +298,19 @@ nav ul{
         margin-top: 7em;
         margin-left: 1.5em;
     }
+    .cities-section{
+        margin-left: 4.2em;
+    }
+    .cities-section_2{
+        margin-left: 4.2em;
+    }
+    
+    .cities-section_3{
+        margin-left: 4.2em;
+    }
+    .cities-section_4{
+        margin-left: 4.2em;
+    }
     
 }
 
@@ -244,6 +329,19 @@ nav ul{
         margin-top: 9em;
         margin-left: 1.5em;
     }
+    .cities-section{
+        margin-left: 3.2em;
+    }
+    .cities-section_2{
+        margin-left: 3.2em;
+    }
+    
+    .cities-section_3{
+        margin-left: 3.2em;
+    }
+    .cities-section_4{
+        margin-left: 3.2em;
+    }
     
 }
 
@@ -256,6 +354,19 @@ nav ul{
         /* border: 2px solid; */
         margin-right: 10.5em;
         margin-left: .50em;
+    }
+    .cities-section{
+        margin-left: 3.2em;
+    }
+    .cities-section_2{
+        margin-left: 3.2em;
+    }
+    
+    .cities-section_3{
+        margin-left: 3.2em;
+    }
+    .cities-section_4{
+        margin-left: 3.2em;
     }
     
 }
@@ -340,6 +451,22 @@ nav ul{
         max-width: 100%;
         border-radius: 10px;
     }
+    .cities-section{
+        margin-left: 2.9em;
+    }
+    .cities-section_2{
+        margin-left: 2.9em;
+    }
+    
+    .cities-section_3{
+        margin-left: 2.9em;
+    }
+    .cities-section_4{
+        margin-left: 2.9em;
+    }
+    .city_1_description{
+        display: none;
+    }
 }
 
 
@@ -364,6 +491,19 @@ nav ul{
     .city_1{
         display: none;
     }
+    .cities-section{
+        margin-left: 3.9em;
+    }
+    .cities-section_2{
+        margin-left: 3.9em;
+    }
+    
+    .cities-section_3{
+        margin-left: 3.9em;
+    }
+    .cities-section_4{
+        margin-left: 3.9em;
+    }
 }
 
 @media (min-width: 1240px) {
@@ -386,6 +526,20 @@ nav ul{
     .city_1{
         display: none;
     }
+
+    .cities-section{
+        margin-left: 4.9em;
+    }
+    .cities-section_2{
+        margin-left: 4.9em;
+    }
+    
+    .cities-section_3{
+        margin-left: 4.9em;
+    }
+    .cities-section_4{
+        margin-left: 4.9em;
+    }
 }
 
 @media (min-width: 1340px) {
@@ -407,4 +561,17 @@ nav ul{
     .city_1{
         display: none;
     }
-}
+    .cities-section{
+        margin-left: 5.9em;
+    }
+    .cities-section_2{
+        margin-left: 5.9em;
+    }
+    
+    .cities-section_3{
+        margin-left: 5.9em;
+    }
+    .cities-section_4{
+        margin-left: 5.9em;
+    }
+    }
