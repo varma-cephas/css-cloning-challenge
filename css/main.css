@@ -110,6 +110,31 @@ nav ul{
 .hero-form h2{
     font-size: 1.8em;
 }
+.cities-section{
+    margin-top: 4em;
+    margin-left: 1.5em;
+}
+.city_1{
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.grid-cities{
+    display: none;
+}
+
+.cities-section_2{
+    margin-left: 1.5em;
+}
+
+.cities-section_3{
+    margin-left: 1.5em;
+}
+
+.city_2{
+    max-width: 50%;
+}
+
 @media (min-width: 450px) {
     body{
         /* background: rgb(182, 92, 92); */
@@ -197,6 +222,10 @@ nav ul{
         margin-top: -19em;
         /* position: fixed; */
     }
+    .cities-section{
+        margin-top: 7em;
+        margin-left: 1.5em;
+    }
     
 }
 
@@ -209,6 +238,11 @@ nav ul{
         /* border: 2px solid; */
         margin-right: 9.5em;
         margin-left: .50em;
+    }
+
+    .cities-section{
+        margin-top: 9em;
+        margin-left: 1.5em;
     }
     
 }
@@ -237,6 +271,10 @@ nav ul{
         margin-right: 11.5em;
         margin-left: .50em;
     }
+    .cities-section{
+        margin-top: 11em;
+        margin-left: 1.5em;
+    }
     
 }
 
@@ -257,6 +295,10 @@ nav ul{
         text-align: center;
         margin-top: -19em;
         /* position: fixed; */
+    }
+    .cities-section{
+        margin-top: 14em;
+        margin-left: 1.5em;
     }
     
 }
@@ -282,6 +324,22 @@ nav ul{
         margin-top: -24em;
         /* position: fixed; */
     }
+    .cities-section{
+        margin-top: 12em;
+        margin-left: 1.5em;
+    }
+    .city_1{
+        display: none;
+    }
+    .grid-cities{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2em;
+    }
+    .grid-cities img{
+        max-width: 100%;
+        border-radius: 10px;
+    }
 }
 
 
@@ -298,6 +356,14 @@ nav ul{
         margin-top: -30em;
         /* position: fixed; */
     }
+    .cities-section{
+        margin-top: 17em;
+        margin-left: 1.5em;
+    }
+
+    .city_1{
+        display: none;
+    }
 }
 
 @media (min-width: 1240px) {
@@ -312,6 +378,14 @@ nav ul{
         margin-top: -40em;
         /* position: fixed; */
     }
+    .cities-section{
+        margin-top: 27em;
+        margin-left: 1.5em;
+    }
+
+    .city_1{
+        display: none;
+    }
 }
 
 @media (min-width: 1340px) {
@@ -325,5 +399,12 @@ nav ul{
         text-align: center;
         margin-top: -35em;
         /* position: fixed; */
+    }
+    .cities-section{
+        margin-top: 28em;
+        margin-left: 1.5em;
+    }
+    .city_1{
+        display: none;
     }
 }
