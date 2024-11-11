@@ -12,14 +12,26 @@ body{
 }
 
 .mobile-menu{
-    margin: 0;
-    padding: 0;
+    padding: .90em;
+    list-style: none;
+    border: 2px solid;
+    margin-left: 10em;
+    display: none;
+}
+
+.desktop-nav{
+    display: none;
+}
+
+
+.toggleMobileMenu{
+    display: block;
 }
 
 .hamburger-icon{
     margin: 0;
-    padding: 0;
-    max-width: 10%;
+    padding-left: .30em;
+    max-width: 8%;
 }
 
 .download-icon{
@@ -30,7 +42,6 @@ body{
     display: flex;
     align-items: center;
     border: 2px solid;
-    justify-items: left;
 }
 
 .download-app-link{
@@ -38,7 +49,14 @@ body{
     text-decoration: none;
     color: black;
     border: 2px solid;
-    padding: 0 .9em 0 .9em;
+    border-radius: 10px;
+    padding: 0 .5em 0 .5em;
+    /* margin-right: .50em; */
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
 }
 
 nav ul{
@@ -47,6 +65,181 @@ nav ul{
 }
 
 #logo{
-    max-width: 80%;
-    text-align: left;
+    max-width: 41%;
+    /* border: 2px solid; */
+    margin-right: 1.5em;
+    margin-left: .50em;
+}
+
+@media (min-width: 450px) {
+    body{
+        /* background: rgb(182, 92, 92); */
+    }
+    #logo{
+        max-width: 41%;
+        /* border: 2px solid; */
+        margin-right: 2.5em;
+        margin-left: .50em;
+    }
+    
+}
+
+@media (min-width: 480px) {
+    body{
+        /* background: rgb(182, 92, 92); */
+    }
+    #logo{
+        max-width: 41%;
+        /* border: 2px solid; */
+        margin-right: 3.5em;
+        margin-left: .50em;
+    }
+    
+}
+
+
+@media (min-width: 500px) {
+    body{
+        /* background: rgb(182, 92, 92); */
+    }
+    #logo{
+        max-width: 41%;
+        /* border: 2px solid; */
+        margin-right: 4.5em;
+        margin-left: .50em;
+    }
+    
+}
+
+
+
+@media (min-width: 520px) {
+    body{
+        /* background: rgb(182, 92, 92); */
+    }
+    #logo{
+        max-width: 41%;
+        /* border: 2px solid; */
+        margin-right:5.8em;
+        margin-left: .50em;
+    }
+    
+}
+
+
+@media (min-width: 540px) {
+    body{
+        /* background: rgb(182, 92, 92); */
+    }
+    #logo{
+        max-width: 41%;
+        /* border: 2px solid; */
+        margin-right:7.5em;
+        margin-left: .50em;
+    }
+    
+}
+
+
+@media (min-width: 570px) {
+    body{
+        /* background: rgb(182, 92, 92); */
+    }
+    #logo{
+        max-width: 41%;
+        /* border: 2px solid; */
+        margin-right:8.5em;
+        margin-left: .50em;
+    }
+    
+}
+
+@media (min-width: 590px) {
+    body{
+        /* background: rgb(182, 92, 92); */
+    }
+    #logo{
+        max-width: 41%;
+        /* border: 2px solid; */
+        margin-right: 9.5em;
+        margin-left: .50em;
+    }
+    
+}
+
+@media (min-width: 605px) {
+    body{
+        /* background: rgb(182, 92, 92); */
+    }
+    #logo{
+        max-width: 41%;
+        /* border: 2px solid; */
+        margin-right: 10.5em;
+        margin-left: .50em;
+    }
+    
+}
+
+
+@media (min-width: 625px) {
+    body{
+        /* background: rgb(182, 92, 92); */
+    }
+    #logo{
+        max-width: 41%;
+        /* border: 2px solid; */
+        margin-right: 11.5em;
+        margin-left: .50em;
+    }
+    
+}
+
+@media (min-width: 650px) {
+    body{
+        /* background: rgb(182, 92, 92); */
+    }
+    #logo{
+        max-width: 41%;
+        /* border: 2px solid; */
+        margin-right: 13.5em;
+        margin-left: .50em;
+    }
+    
+}
+
+@media (min-width: 660px) {
+    .hamburger-icon{
+        display: none;
+    }
+    .desktop-nav{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        gap: 2em;
+    }
+    #logo{
+        margin-right: 1.2em;
+    }
+}
+
+
+@media (min-width: 1040px) {
+
+    #logo{
+        margin-right: 5.2em;
+    }
+}
+
+@media (min-width: 1240px) {
+
+    #logo{
+        margin-right: 10em;
+    }
+}
+
+@media (min-width: 1340px) {
+
+    #logo{
+        margin-right: 15em;
+    }
 }
