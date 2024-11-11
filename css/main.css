@@ -41,7 +41,7 @@ body{
 .logo-hamburger-menu{
     display: flex;
     align-items: center;
-    border: 2px solid;
+    /* border: 2px solid; */
 }
 
 .download-app-link{
@@ -71,6 +71,26 @@ nav ul{
     margin-left: .50em;
 }
 
+.hero-section{
+    position: relative;
+}
+
+.hero-image{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    margin-top: -2em;
+    /* opacity: 0.90; */
+}
+
+
+.hero-form{
+    border: 2px solid;
+    color: white;
+    text-align: center;
+    margin-top: -2em;
+    position: fixed;
+}
 @media (min-width: 450px) {
     body{
         /* background: rgb(182, 92, 92); */
