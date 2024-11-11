@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+}
+
+*::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-menu{
+    margin: 0;
+    padding: 0;
+}
+
+.hamburger-icon{
+    margin: 0;
+    padding: 0;
+    max-width: 10%;
+}
+
+.download-icon{
+    max-width: 15%;
+}
+
+.logo-hamburger-menu{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    justify-items: left;
+}
+
+.download-app-link{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border: 2px solid;
+    padding: 0 .9em 0 .9em;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    max-width: 80%;
+    text-align: left;
+}
